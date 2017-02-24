@@ -1,0 +1,7 @@
+-
+    subject_id: 'SLEEPLDF0??'
+    unique_id: ''
+    anat: '/home3/kensinel/fMRI_DATA/SleepLDF/pre_ret_resting_state/SLEEPLDF0??/anat/SLEEPLDF0??_memprage.nii.gz'
+    rest: 
+      func_SLEEPLDF0??_preret: '/home3/kensinel/fMRI_DATA/SleepLDF/pre_ret_resting_state/SLEEPLDF0??/func/SLEEPLDF0??_preret.nii.gz'
+
