@@ -1,10 +1,8 @@
 #!/bin/csh -ef
 
-
 ## usage: roi_mk_sphere.csh <roi_name> <vox_x_coor> <vox_y_coor> <vox_z_coor> <kernel_size_in_mm>
 ## example: roi_mk_sphere.csh rIFG 5 10 50 8
 ## critical to use voxel coordinates not MNI coordinates
-
 
 #vmpfc mni is 8 44 4
 #voxel 41 85 38

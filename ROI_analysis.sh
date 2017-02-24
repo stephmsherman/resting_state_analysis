@@ -20,6 +20,3 @@ echo $sub $seed
 done
 
 done
-
-
-##then run scp shermasg@pleiades.bc.edu:/home3/kensinel/fMRI_DATA/SleepLDF/*_resting_state/std_space_rois/vmpfc_6mm*.txt /Volumes/LabShareFolder/SleepLDF/Raw_MR_Data/resting_state_analysis/
