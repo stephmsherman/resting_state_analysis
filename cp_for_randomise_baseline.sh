@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-seed=$1
+
+##this script takes the preprocessed resting state data, combines it in preparation for completing statistical analyses using randomise
+seed=$1 #hippo amygdala
 resting_state=/home3/kensinel/fMRI_DATA/SleepLDF/baseline_resting_state
 mkdir $resting_state/randomise/$seed
 
