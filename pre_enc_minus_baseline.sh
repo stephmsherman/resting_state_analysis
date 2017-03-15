@@ -4,11 +4,13 @@
 ## I took the pre_enc minus baseline and then conducted a one sample t-test on the difference.
 ##This essentially is like conducted a paired t-test in two steps
 
+path=/home3/kensinel/fMRI_DATA/SleepLDF
+
 for seed in amygdala amygdalaL amygdalaR hippo hippoL hippoR; do
-baseline=/home3/kensinel/fMRI_DATA/SleepLDF/baseline_resting_state
-pre_enc=/home3/kensinel/fMRI_DATA/SleepLDF/pre_enc_resting_state
-mkdir -p /home3/kensinel/fMRI_DATA/SleepLDF/group_analyses/resting_state/pre_enc_minus_baseline_stress/$seed
-group=/home3/kensinel/fMRI_DATA/SleepLDF/group_analyses/resting_state/pre_enc_minus_baseline_stress
+baseline=$path/baseline_resting_state
+pre_enc=$path/pre_enc_resting_state
+mkdir -p $path/group_analyses/resting_state/pre_enc_minus_baseline_stress/$seed
+group=$path/group_analyses/resting_state/pre_enc_minus_baseline_stress
 
 ##only stress participants
 for sub in SLEEPLDF002 SLEEPLDF003 SLEEPLDF004 SLEEPLDF006 SLEEPLDF007 SLEEPLDF008 SLEEPLDF009 SLEEPLDF010 SLEEPLDF011 SLEEPLDF017 SLEEPLDF018 SLEEPLDF019 SLEEPLDF024 SLEEPLDF027 SLEEPLDF029 SLEEPLDF031 SLEEPLDF033 SLEEPLDF035 SLEEPLDF037; do
